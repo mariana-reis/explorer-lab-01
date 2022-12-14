@@ -1,0 +1,42 @@
+#home {
+  display: grid;
+  justify-content: center;
+  gap: 3.2rem;
+
+  width: 90%;
+  max-width: 42rem;
+  margin: 0 auto;
+}
+
+#home a {
+  text-decoration: none;
+}
+
+.btn-home {
+  width: 300px;
+  height: 49px;  
+  background: #42D3FF;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #121212;
+  font-size: small;
+  font-weight: bold;
+}
+
+.btn-home:hover {
+  background:#2d94b3;
+}
+
+.section {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  gap: 5rem;
+}
+
+.img-paywallet{
+  width: 130%;
+  margin-left: 30rem;
+}
